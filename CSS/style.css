@@ -93,7 +93,7 @@ main, section, article {
 h2 {
     font-size: 2rem;
     margin: 1rem 0;
-    color: #000;
+    color: #ffffff;
     text-decoration: underline;
 }
 
@@ -107,12 +107,12 @@ p {
 /* Pseudo-elementos */
 p::first-letter {
     font-size: 2rem;
-    color: #000;
+    color: #ffffff;
 }
 
 p::before {
     content: "→ ";
-    color: #000;
+    color: #ffffff;
 }
 
 p::after {
