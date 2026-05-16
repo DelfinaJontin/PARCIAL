@@ -121,7 +121,7 @@ p::after {
 }
 
 ::section {
-    background-color: yellow;
+    background-color: rgb(124, 249, 253);
     color: #000;
 }
 
