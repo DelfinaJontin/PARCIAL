@@ -93,7 +93,7 @@ main, section, article {
 h2 {
     font-size: 2rem;
     margin: 1rem 0;
-    color: #ffffff;
+    color: #ed0505;
     text-decoration: underline;
 }
 
@@ -112,7 +112,7 @@ p::first-letter {
 
 p::before {
     content: "→ ";
-    color: #ffffff;
+    color: #000000;
 }
 
 p::after {
