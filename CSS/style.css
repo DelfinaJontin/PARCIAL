@@ -3,15 +3,13 @@ body {
     background-color: #f0f0f0;
     margin: 0;
     padding: 20px;
+    color: #000;
 }
-/*Reset y Box Model*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
-/*Fondo general con la imagen compartida*/
 body {
     font-family: "Barlow", sans-serif;
     font-size: 1rem;
@@ -20,27 +18,31 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    color: rgb(205, 249, 255);
+    color: #000;
 }
-/*Encabezado*/
-header{
+
+header {
     background-color: rgba(0, 0, 0, 0.7);
-    color: #0a0a0a;
+    color: #000;
     padding: 2rem;
     text-align: center;
     border-bottom: 0.5rem solid #fc0;
 }
+
 header h1 {
-    font-size: 2.5 rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
+    color: #000;
 }
+
 header img {
     width: 40%;
     border: 0.5rem solid #fff;
     margin: 1rem auto;
     display: block;
 }
-/*menu de navegacion*/
+
+
 nav ul {
     list-style: none;
     display: flex;
@@ -53,22 +55,25 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
-    color: #ffcc00;
+    color: #000;
     padding: 0.5rem 1rem;
     border-radius: 0.3rem;
     transition: all 0.3s ease;
 }
 
-/*Pseudo clases para enlaces*/
-nav ul li a:link {color: #ffcc00;}
-nav ul li a:visited {color: #ffcc00}
+
+nav ul li a:link { color: #000; }
+nav ul li a:visited { color: #000; }
+
 nav ul li a:hover {
-    color: #fff;
+    color: #000;
     background-color: #003366;
-    border: 0.2rem solid #ffcc00;
+    border: 0.2rem solid #000;
 }
-nav ul li a:active {color: #f00;}
-/*Contenido Principlal*/
+
+nav ul li a:active { color: #000; }
+
+
 main, section, article {
     max-width: 80%;
     margin: 2rem auto;
@@ -77,65 +82,77 @@ main, section, article {
     border: 0.2rem solid #ccc;
     border-radius: 0.5rem;
     text-align: center;
+    color: #000;
 }
 
-/*Titulos*/
-h2{
+
+h2 {
     font-size: 2rem;
     margin: 1rem 0;
-    color: #003366;
+    color: #000;
     text-decoration: underline;
 }
-/*Parrafos*/
-p{
+
+
+p {
     margin-bottom: 1rem;
     text-align: justify;
+    color: #000;
 }
-/*Pseudo-elementos*/
+
 p::first-letter {
     font-size: 2rem;
-    color: #f00;
+    color: #000;
 }
+
 p::before {
     content: "→ ";
-    color: #003366;
+    color: #000;
 }
+
 p::after {
     content: " ←";
-    color: #003366;
+    color: #000;
 }
-::section {
+
+section {
     background-color: yellow;
-    color: black;
+    color: #000;
 }
-/*Imagenes Centradas*/
-img{
+
+
+img {
     display: block;
     margin: 1rem auto;
     max-width: 80%;
     border: 0.3rem solid #003366;
     border-radius: 0.5rem;
 }
-/*Listas*/
+
+
 ul {
     list-style: square;
     text-align: left;
     margin: 1rem auto;
     width: 60%;
+    color: #000;
 }
-/*Blockquote*/
+
+
 blockquote {
     font-style: italic;
-  border-left: 0.5rem solid #003366;
-  padding-left: 1rem;
-  margin: 1rem auto;
-  background-color: rgb(255, 236, 236);
-  width: 80%;
+    border-left: 0.5rem solid #003366;
+    padding-left: 1rem;
+    margin: 1rem auto;
+    background-color: rgb(255, 236, 236);
+    width: 80%;
+    color: #000;
 }
-/*Footer*/
+
+
 footer {
     background-color: rgba(0,0,0,0.7);
-    color: #fff;
+    color: #000;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
